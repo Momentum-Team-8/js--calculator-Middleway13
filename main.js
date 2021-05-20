@@ -1,8 +1,11 @@
-// let output = document.querySelector('.output')
+let output = document.querySelector(".output");
+let newElement = document.createElement("h1");
 
-
-document.querySelector('.button').addEventListener('click', function (event) {
-    console.log(event.target)
+document.addEventListener("click", function (event) {
+  console.log(event.target.innerHTML)
+  let newEntry = document.createTextNode(event.target.innerHTML)
+  newElement.appendChild(newEntry)
+  output.appendChild(newElement)
 })
 
 // document.querySelector('#equal').addEventListener('click', function (event) {
