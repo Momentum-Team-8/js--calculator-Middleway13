@@ -1,0 +1,36 @@
+  
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.calculator {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 400px;
+}
+
+.output {
+  width: 400px;
+  height: 100px;
+  background-color: #77B060;
+  border: 1px solid #95be84;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .button {
+    width: 100px;
+    height: 100px;
+    background-color: #77B060;
+    border: 1px solid #95be84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
