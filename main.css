@@ -1,12 +1,18 @@
-  
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+.container {
+  margin: auto;
+  width: 100%;
+  margin-top: 25px;
+}
+
 .calculator {
-  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
   color: white;
   display: flex;
@@ -18,19 +24,26 @@
 .screen {
   width: 400px;
   height: 100px;
-  background-color: #77B060;
+  background-color: #77b060;
   border: 1px solid #95be84;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-  .button {
-    width: 100px;
-    height: 100px;
-    background-color: #77B060;
-    border: 1px solid #95be84;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.button {
+  width: 100px;
+  height: 100px;
+  background-color: #77b060;
+  border: 1px solid #95be84;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 25px;
 }
